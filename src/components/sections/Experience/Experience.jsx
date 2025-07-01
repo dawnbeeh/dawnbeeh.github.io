@@ -2,7 +2,7 @@ import styles from "./Experience.module.css"
 import experiences from "../../../data/experiences"
 
 const Experience = () => (
-  <section id="experience" className={styles.experience}>
+  <section id="experience" className={styles.experience} data-aos="fade-up">
     <h2>Experience</h2>
     <ul>
       {experiences.map((exp) => (

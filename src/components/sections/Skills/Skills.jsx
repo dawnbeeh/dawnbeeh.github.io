@@ -2,7 +2,7 @@ import styles from "./Skills.module.css"
 import skills from "../../../data/skills"
 
 const Skills = () => (
-  <section id="skills" className={styles.skills}>
+  <section id="skills" className={styles.skills} data-aos="fade-up">
     <h2>Skills</h2>
     <ul className={styles.list}>
       {skills.map(({ name, icon }) => (

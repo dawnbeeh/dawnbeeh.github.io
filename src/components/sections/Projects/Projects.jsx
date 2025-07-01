@@ -2,7 +2,7 @@ import styles from "./Projects.module.css"
 import projects from "../../../data/projects"
 
 const Projects = () => (
-  <section id="projects" className={styles.projects}>
+  <section id="projects" className={styles.projects} data-aos="fade-up">
     <h2>Projects</h2>
     <ul>
       {projects.map((project) => (

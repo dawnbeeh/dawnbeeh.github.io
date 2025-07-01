@@ -1,7 +1,7 @@
 import styles from "./About.module.css"
 
 const About = () => (
-  <section id="about" className={styles.about}>
+  <section id="about" className={styles.about} data-aos="fade-up">
     <h2>About Me</h2>
     <p>
     Lately, I've been exploring internship opportunities 
@@ -9,7 +9,7 @@ const About = () => (
     I'm still in the process of figuring things out, 
     but I've been enjoying the chance to learn and try new things.
     With summer break giving me a bit more breathing room, 
-    I’m taking this time to move at my own pace - and I'm grateful for it!
+    I'm taking this time to move at my own pace - and I'm grateful for it!
     </p>
   </section>
 )
