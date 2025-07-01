@@ -15,7 +15,7 @@ const Projects = () => (
           className={styles.card}
         >
           <img src={image || fallbackImg} alt={title} className={styles.thumbnail} onError={(e) => { e.target.onerror=null; e.target.src=fallbackImg; }} />
-          <div className={styles.cardBody}>
+          <div className={styles.overlay}>
             <h3>{title}</h3>
             <p>{description}</p>
           </div>
