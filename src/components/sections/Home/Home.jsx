@@ -3,10 +3,14 @@ import profile from "../../../assets/images/myprofile.jpg"
 
 const Home = () => {
   return (
-    <section id="home" className={styles.home} data-aos="fade-up">
-      <img src={profile} alt="Profile" className={styles.avatar} />
+    <section
+      id="home"
+      className={styles.home}
+      data-aos="fade-up"
+      style={{ backgroundImage: `url(${profile})` }}
+    >
       <h2>Hello, I'm Dawnbee ☀️🐝</h2>
-      <p>CS & Math Student  • Aspiring Software Developer</p>
+      <p>CS & Math Student</p>
     </section>
   )
 }
