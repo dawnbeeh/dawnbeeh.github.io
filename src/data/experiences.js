@@ -1,8 +1,14 @@
 const experiences = [
   {
+    "company": "LikeLion Northeastern University",
+    "role": "Chapter President",
+    "period": "07-01-2025 – Present",
+    "description": "Led a student developer community with 20+ members. Organized weekly coding workshops and mentorship sessions. Oversaw development of 3+ team projects including web and AI apps."
+  },
+  {
     "company": "Middlesex Community College",
     "role": "SI Leader",
-    "period": "09-01-2023 – Present",
+    "period": "09-01-2023 – 05-31-2024",
     "description": "Led support sessions for Discrete Math and Precalculus, gave mini lectures, answered questions during weekly tutoring, and assisted with high school math labs at Ramps Up."
   },
   {
