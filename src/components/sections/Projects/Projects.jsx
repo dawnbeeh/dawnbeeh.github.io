@@ -1,21 +1,27 @@
 import styles from "./Projects.module.css"
 import projects from "../../../data/projects"
+import fallbackImg from "../../../assets/images/profile.jpg"
 
 const Projects = () => (
   <section id="projects" className={styles.projects} data-aos="fade-up">
     <h2>Projects</h2>
-    <ul>
-      {projects.map((project) => (
-        <li key={project.title} className={styles.item}>
-          <h3>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              {project.title}
-            </a>
-          </h3>
-          <p>{project.description}</p>
-        </li>
+    <div className={styles.grid}>
+      {projects.map(({ title, description, link, image }) => (
+        <a
+          key={title}
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.card}
+        >
+          <img src={image || fallbackImg} alt={title} className={styles.thumbnail} onError={(e) => { e.target.onerror=null; e.target.src=fallbackImg; }} />
+          <div className={styles.cardBody}>
+            <h3>{title}</h3>
+            <p>{description}</p>
+          </div>
+        </a>
       ))}
-    </ul>
+    </div>
   </section>
 )
 
