@@ -1,5 +1,5 @@
 .skills {
-  padding-top: 4rem;
+  padding: 4rem 1rem 0;
   text-align: center;
 }
 
@@ -11,6 +11,10 @@
   justify-items: center;
   list-style: none;
   padding: 0;
+  /* constrain width and center */
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item {
