@@ -13,4 +13,12 @@
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1.5rem;
+}
+
+.home h2 {
+  margin-bottom: 0.4rem; 
+}
+
+.home p {
+  margin-top: 0;
 } 
