@@ -15,3 +15,21 @@
     font-size: 0.75rem;
   }
 }
+
+.links {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.links a {
+  color: #213547;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.links a:hover {
+  color: #646cff;
+}
