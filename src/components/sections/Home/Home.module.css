@@ -47,7 +47,7 @@
 
 @keyframes heroZoom {
   from {
-    background-size: 105%;
+    background-size: 115%;
   }
   to {
     background-size: 100%;
