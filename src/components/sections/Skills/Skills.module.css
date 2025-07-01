@@ -30,4 +30,13 @@
 .label {
   margin-top: 0.5rem;
   font-size: 0.875rem;
+}
+
+.category {
+  margin-top: 2.5rem;
+}
+
+.categoryTitle {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
 } 
