@@ -1,0 +1,25 @@
+.experience {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.item {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+}
+
+.period {
+  display: block;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.experience ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
