@@ -23,4 +23,21 @@
   color: #213547;
   font-weight: 600;
   text-decoration: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .navbar {
+    padding: 0.75rem 1rem;
+  }
+
+  .navbar ul {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar a {
+    font-size: 0.875rem;
+  }
 } 
