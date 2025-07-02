@@ -18,7 +18,7 @@ const DefaultDetail = ({ project }) => (
         href={project.link}
         target="_blank"
         rel="noopener noreferrer"
-        style={{ display: "inline-block", marginTop: 16, padding: "0.5rem 1rem", background: "#646cff", color: "#fff", borderRadius: 4, textDecoration: "none" }}
+        style={{ display: "inline-block", marginTop: 16, padding: "0.5rem 1rem", background: "#0ea5e9", color: "#fff", borderRadius: 4, textDecoration: "none" }}
       >
         Visit Site
       </a>
