@@ -21,7 +21,7 @@ const experiences = [
     "company": "Sasaro",
     "role": "Business Manager",
     "period": "03-01-2022 – 05-31-2023",
-    "description": "Worked on business development for a startup, redesigned the website, published weekly news posts, handled HR tasks, wrote business plans, promoted on donation platforms, and helped with office relocation."
+    "description": "Worked on business development for a startup, redesigned the website, published weekly news posts, handled HR tasks, wrote business plans, promoted on donation platforms."
   }
 ]
 
