@@ -21,17 +21,11 @@ const arrowStyle = {
   position: "absolute",
   top: "50%",
   transform: "translateY(-50%)",
-  background: "rgba(0,0,0,0.45)",
+  background: "rgba(0,0,0,0.5)",
   color: "#fff",
   border: "none",
-  width: 36,
-  height: 36,
-  borderRadius: "50%",
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
+  padding: "0.5rem 0.75rem",
   cursor: "pointer",
-  fontSize: 18,
 }
 
 const RestaurantUIDetail = ({ project }) => {
@@ -49,11 +43,11 @@ const RestaurantUIDetail = ({ project }) => {
         />
         {images.length > 1 && (
           <>
-            <button style={{ ...arrowStyle, left: 8 }} onClick={prev} aria-label="Previous image">
-              ◀
+            <button style={{ ...arrowStyle, left: 10, borderRadius: '50%' }} onClick={prev} aria-label="Previous image">
+              <i className="bi bi-chevron-left"></i>
             </button>
-            <button style={{ ...arrowStyle, right: 8 }} onClick={next} aria-label="Next image">
-              ▶
+            <button style={{ ...arrowStyle, right: 10, borderRadius: '50%' }} onClick={next} aria-label="Next image">
+              <i className="bi bi-chevron-right"></i>
             </button>
           </>
         )}
