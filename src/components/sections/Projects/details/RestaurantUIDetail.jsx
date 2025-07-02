@@ -8,13 +8,13 @@ import figmaInspiration from "../../../../assets/images/Figma-inspiration.png"
 import figmaLogo from "../../../../assets/images/Figma-logo.png"
 
 const images = [
-  figmaMain,
   //figma1,
   figmaFinal,
   figmaBlank,
   figmaHand,
   figmaInspiration,
   figmaLogo,
+  figmaMain
 ]
 
 const arrowStyle = {
