@@ -5,12 +5,14 @@ import projects from "../../../data/projects"
 import fallbackImg from "../../../assets/images/profile.jpg"
 import DefaultDetail from "./details/DefaultDetail"
 import Project1Detail from "./details/Project1Detail"
+import RestaurantUIDetail from "./details/RestaurantUIDetail"
 
 const Projects = () => {
   const [selected, setSelected] = useState(null)
 
   const detailMap = {
     "Project 1": Project1Detail,
+    "Restaurant UI Design": RestaurantUIDetail,
   }
 
   return (
