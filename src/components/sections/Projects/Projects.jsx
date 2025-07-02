@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { createPortal } from "react-dom"
 import styles from "./Projects.module.css"
 import projects from "../../../data/projects"
 import fallbackImg from "../../../assets/images/profile.jpg"
@@ -36,39 +37,41 @@ const Projects = () => {
         ))}
       </div>
 
-      {selected && (
-        <div className={styles.modalOverlay} onClick={() => setSelected(null)}>
-          <div
-            className={styles.modalContent}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button className={styles.closeBtn} onClick={() => setSelected(null)}>
-              ×
-            </button>
-            <img
-              src={selected.image || fallbackImg}
-              alt={selected.title}
-              className={styles.modalImg}
-              onError={(e) => {
-                e.target.onerror = null
-                e.target.src = fallbackImg
-              }}
-            />
-            <h3>{selected.title}</h3>
-            <p>{selected.description}</p>
-            {selected.link && (
-              <a
-                href={selected.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.visitBtn}
-              >
-                Visit Site
-              </a>
-            )}
-          </div>
-        </div>
-      )}
+      {selected &&
+        createPortal(
+          <div className={styles.modalOverlay} onClick={() => setSelected(null)}>
+            <div
+              className={styles.modalContent}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button className={styles.closeBtn} onClick={() => setSelected(null)}>
+                ×
+              </button>
+              <img
+                src={selected.image || fallbackImg}
+                alt={selected.title}
+                className={styles.modalImg}
+                onError={(e) => {
+                  e.target.onerror = null
+                  e.target.src = fallbackImg
+                }}
+              />
+              <h3>{selected.title}</h3>
+              <p>{selected.description}</p>
+              {selected.link && (
+                <a
+                  href={selected.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.visitBtn}
+                >
+                  Visit Site
+                </a>
+              )}
+            </div>
+          </div>,
+          document.body
+        )}
     </section>
   )
 }
