@@ -84,7 +84,9 @@
 }
 
 .cardBody {
-  /* removed: repurposed as overlay */
+  padding: 0.75rem 1rem;
+  text-align: center;
+  flex: 1 1 auto;
 }
 
 .cardBody h3 {
@@ -116,4 +118,55 @@
 
 .card:hover .overlay {
   transform: translateX(0);
+}
+
+/* Modal styles */
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  backdrop-filter: blur(4px);
+}
+
+.modalContent {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 900px;
+  width: 95%;
+  max-height: 95vh;
+  overflow-y: auto;
+  position: relative;
+  text-align: center;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modalImg {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.visitBtn {
+  margin-top: 1rem;
+  display: inline-block;
+  background: #646cff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
 } 
