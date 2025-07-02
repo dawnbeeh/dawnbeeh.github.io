@@ -26,6 +26,8 @@ const arrowStyle = {
   border: "none",
   padding: "0.5rem 0.75rem",
   cursor: "pointer",
+  outline: "none",
+  boxShadow: "none",
 }
 
 const RestaurantUIDetail = ({ project }) => {
