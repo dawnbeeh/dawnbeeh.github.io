@@ -1,11 +1,11 @@
 import { useState } from "react"
-import figmaMain from "../../../../assets/images/Figma-restuarant-UI.png"
-//import figma1 from "../../../../assets/images/Figma-1.png"
-import figmaFinal from "../../../../assets/images/Figma-final.png"
-import figmaBlank from "../../../../assets/images/Figma-blank.png"
-import figmaHand from "../../../../assets/images/Figma-handwritingLayout.png"
-import figmaInspiration from "../../../../assets/images/Figma-inspiration.png"
-import figmaLogo from "../../../../assets/images/Figma-logo.png"
+import figmaMain from "../../../../assets/images/Figma/Figma-restuarant-UI.png"
+//import figma1 from "../../../../assets/images/Figma/Figma-1.png"
+import figmaFinal from "../../../../assets/images/Figma/Figma-final.png"
+import figmaBlank from "../../../../assets/images/Figma/Figma-blank.png"
+import figmaHand from "../../../../assets/images/Figma/Figma-handwritingLayout.png"
+import figmaInspiration from "../../../../assets/images/Figma/Figma-inspiration.png"
+import figmaLogo from "../../../../assets/images/Figma/Figma-logo.png"
 
 const images = [
   //figma1,
