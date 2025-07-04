@@ -1,10 +1,11 @@
 import fallbackImg from "../../../../assets/images/profile.jpg"
-import heroImg from "../../../../assets/images/CanvasClone/Big-DashBoard.png"
+import bigDashImg from "../../../../assets/images/CanvasClone/Big-DashBoard.png"
 import signInImg from "../../../../assets/images/CanvasClone/Sign-in.png"
 import smallDashImg from "../../../../assets/images/CanvasClone/Small-DashBoard.png"
 import dashImg from "../../../../assets/images/CanvasClone/DashBoard.png"
 import courseImg from "../../../../assets/images/CanvasClone/Aerodynamics-course.png"
 import assignmentImg from "../../../../assets/images/CanvasClone/Aerodynamics-Assignments.png"
+import peopleImg from "../../../../assets/images/CanvasClone/Aerodynamics-People.png"
 import enrollImg from "../../../../assets/images/CanvasClone/Endroll-Course.png"
 import profileImg from "../../../../assets/images/CanvasClone/Profile-page.png"
 import mongoCourseImg from "../../../../assets/images/CanvasClone/Course-MongDB.png"
@@ -13,7 +14,7 @@ import mongoUsersImg from "../../../../assets/images/CanvasClone/users-DB.png"
 const CanvasCloneDetail = ({ project }) => (
   <>
     <img
-      src={heroImg}
+      src={assignmentImg}
       alt={project.title}
       style={{ width: "100%", maxHeight: 500, objectFit: "cover", marginBottom: "1rem" }}
       onError={(e) => {
@@ -66,6 +67,10 @@ const CanvasCloneDetail = ({ project }) => (
       <figure style={{ margin: 0 }}>
         <img src={enrollImg} alt="Enroll / Unenroll" style={{ width: "100%", borderRadius: 8 }} />
         <figcaption style={{ fontSize: 14, textAlign: "center", marginTop: 4 }}>Enroll / Unenroll Course</figcaption>
+      </figure>
+      <figure style={{ margin: 0 }}>
+        <img src={peopleImg} alt="Assignments List" style={{ width: "100%", borderRadius: 8 }} />
+        <figcaption style={{ fontSize: 14, textAlign: "center", marginTop: 4 }}>People List</figcaption>
       </figure>
     </div>
 
@@ -120,7 +125,7 @@ const CanvasCloneDetail = ({ project }) => (
         <figcaption style={{ fontSize: 14, textAlign: "center", marginTop: 4 }}>Medium layout (~1024&nbsp;px)</figcaption>
       </figure>
       <figure style={{ flex: "1 1 260px", margin: 0 }}>
-        <img src={heroImg} alt="Desktop Dashboard" style={{ width: "100%", borderRadius: 8 }} />
+        <img src={bigDashImg} alt="Desktop Dashboard" style={{ width: "100%", borderRadius: 8 }} />
         <figcaption style={{ fontSize: 14, textAlign: "center", marginTop: 4 }}>Desktop layout (≥1280&nbsp;px)</figcaption>
       </figure>
     </div>
