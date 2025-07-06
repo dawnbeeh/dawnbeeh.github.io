@@ -130,17 +130,16 @@ const CanvasCloneDetail = ({ project }) => (
       </figure>
     </div>
 
-    {/* Conclusion */}
-    <h4>What I Learned</h4>
-    <p style={{ textAlign: "left", maxWidth: 800, margin: "0 auto" }}>
-        hello world!
-        {/* I built a RESTful API using Node.js and Express to support full CRUD operations
-        for users, courses, and assignments, along with session-based authentication
-        and basic role-based access control (RBAC) for ADMIN, FACULTY, TA, and STUDENT roles.
-
-        On the frontend, I used React and Redux Toolkit to implement role-based navigation
-        and protected routes, delivering core LMS features such as dashboards and course registration. */}
-    </p>
+    {/* Hosting Notice */}
+    <div style={{ maxWidth: 800, margin: "1rem auto", border: "1px solid #cbd5e1", background: "#f8fafc", borderRadius: 6, padding: "0.75rem 1rem", fontStyle: "italic", lineHeight: 1.4 }}>
+      <p style={{ margin: 0 }}>
+        The demo is deployed on Netlify and connected to MongoDB Atlas.<br/>
+        There may be occasional downtime due to cold starts or maintenance windows.
+      </p>
+      <p style={{ margin: "0.5rem 0 0 0" }}>
+        If you're interested in the full source code, feel free to reach out!
+      </p>
+    </div>
 
     {/* External Link */}
     {project.link && (

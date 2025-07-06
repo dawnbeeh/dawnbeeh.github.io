@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Canvas Clone Web App",
     description: "Learning management system clone built with React & TypeScript.",
-    link: "",
+    link: "http://dawnbeeh-kambaz.netlify.app",
     image: "/src/assets/images/CanvasClone/DashBoard.png"
   },
   {
