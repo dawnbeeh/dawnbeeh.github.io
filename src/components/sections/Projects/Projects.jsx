@@ -4,7 +4,6 @@ import styles from "./Projects.module.css"
 import projects from "../../../data/projects"
 import fallbackImg from "../../../assets/images/profile.jpg"
 import DefaultDetail from "./details/DefaultDetail"
-import Project1Detail from "./details/Project1Detail"
 import RestaurantUIDetail from "./details/RestaurantUIDetail"
 import CanvasCloneDetail from "./details/CanvasCloneDetail"
 
@@ -12,7 +11,6 @@ const Projects = () => {
   const [selected, setSelected] = useState(null)
 
   const detailMap = {
-    "Project 1": Project1Detail,
     "Restaurant UI&UX Design": RestaurantUIDetail,
     "Canvas Clone Web App": CanvasCloneDetail,
   }
