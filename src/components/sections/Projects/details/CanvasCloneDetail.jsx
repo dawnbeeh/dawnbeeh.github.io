@@ -32,26 +32,19 @@ const CanvasCloneDetail = ({ project }) => (
 
     <h4>Tech Stack</h4>
     <ul style={{ textAlign: "left", maxWidth: 800, margin: "0 auto" }}>
-      <li><strong>Frontend</strong>: React 18, React Router, Vite</li>
-      <li><strong>Backend</strong>: Node.js 20, Express</li>
+      <li><strong>Frontend</strong>: React 19, React Router&nbsp;v7, Vite</li>
+      <li><strong>Backend</strong>: Node.js&nbsp;+ Express</li>
       <li><strong>Database</strong>: MongoDB Atlas &amp; Mongoose ODM</li>
-      <li><strong>Deployment</strong>: Netlify (CI/CD)</li>
+      <li><strong>Deployment</strong>: Netlify (frontend) &amp; Render (backend)</li>
     </ul>
 
     <h4>Core Features</h4>
     <ol style={{ textAlign: "left", maxWidth: 800, margin: "0 auto" }}>
-      <li><strong>Multi-role Authentication</strong> – Supports Instructor and Student roles; each user can only
-        access the screens and APIs allowed by their role. JWT with HTTP-only cookies handles auth and
-        authorization.</li>
-      <li><strong>Course Builder</strong> – Instructors create courses, design module structures and upload
-        assignments via a drag-and-drop interface.</li>
-      <li><strong>Assignment Submission &amp; Gradebook</strong> – Students upload files or text answers; instructors
-        grade and give feedback in real time.</li>
-      <li><strong>Enrollment Management</strong> – Students join via invitation link or code, and instructors view
-        enrollment lists and analytics.</li>
-      <li><strong>Responsive UI</strong> </li>
-      <li><strong>Autosave Markdown Editor</strong> – Supports Markdown for assignment instructions and submission
-        answers, autosaving locally to prevent data loss.</li>
+      <li><strong>Session-based Multi-role Authentication</strong> – Admin, Faculty, TA and Student roles handled via <code>express-session</code>; UI and API access adapt per role.</li>
+      <li><strong>Course &amp; Module Management</strong> – Faculty can create courses, build module structures and post assignments.</li>
+      <li><strong>Assignment Submission &amp; Grading</strong> – Students upload files / text; instructors review and record grades.</li>
+      <li><strong>Enrollment Management</strong> – Join / leave courses with enrolment buttons; instructors see real-time rosters.</li>
+      <li><strong>Responsive UI</strong> – Mobile, tablet and desktop layouts tested with Tailwind utility classes.</li>
     </ol>
 
     {/* Feature Illustrations */}
@@ -133,8 +126,8 @@ const CanvasCloneDetail = ({ project }) => (
     {/* Hosting Notice */}
     <div style={{ maxWidth: 800, margin: "1rem auto", border: "1px solid #cbd5e1", background: "#f8fafc", borderRadius: 6, padding: "0.75rem 1rem", fontStyle: "italic", lineHeight: 1.4 }}>
       <p style={{ margin: 0 }}>
-        The demo is deployed on Netlify and connected to MongoDB Atlas.<br/>
-        There may be occasional downtime due to cold starts or maintenance windows.
+        The frontend is served from Netlify, while the Express API runs on Render and connects to MongoDB Atlas.<br/>
+        Cold starts or maintenance windows may cause brief downtime.
       </p>
       <p style={{ margin: "0.5rem 0 0 0" }}>
         If you're interested in the full source code, feel free to reach out!
