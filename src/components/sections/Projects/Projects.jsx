@@ -13,7 +13,7 @@ const Projects = () => {
 
   const detailMap = {
     "Project 1": Project1Detail,
-    "Restaurant UI Design": RestaurantUIDetail,
+    "Restaurant UI&UX Design": RestaurantUIDetail,
     "Canvas Clone Web App": CanvasCloneDetail,
   }
 
