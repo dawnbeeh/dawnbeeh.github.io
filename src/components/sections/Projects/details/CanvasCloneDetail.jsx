@@ -67,10 +67,10 @@ const CanvasCloneDetail = ({ project }) => (
       </figure>
     </div>
 
-    <h4>Architecture Overview</h4>
+    {/* <h4>Architecture Overview</h4>
     <p style={{ textAlign: "left", maxWidth: 800, margin: "0 auto" }}>
       example
-    </p>
+    </p> */}
 
     <h4>Database (Mongoose)</h4>
     <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", justifyContent: "center", maxWidth: 800, margin: "1rem auto" }}>
