@@ -30,7 +30,7 @@ const CanvasCloneDetail = ({ project }) => (
         environment.
     </p>
 
-    <h4>Tech Stack</h4>
+    <h4 style={{ marginTop: "2rem", paddingTop: "1rem", borderTop: "1px solid #e2e8f0" }}>Tech Stack</h4>
     <ul style={{ textAlign: "left", maxWidth: 800, margin: "0 auto" }}>
       <li><strong>Frontend</strong>: React 19, React Router&nbsp;v7, Vite</li>
       <li><strong>Backend</strong>: Node.js&nbsp;+ Express</li>
@@ -38,7 +38,7 @@ const CanvasCloneDetail = ({ project }) => (
       <li><strong>Deployment</strong>: Netlify (frontend) &amp; Render (backend)</li>
     </ul>
 
-    <h4>Core Features</h4>
+    <h4 style={{ marginTop: "2rem", paddingTop: "1rem", borderTop: "1px solid #e2e8f0" }}>Core Features</h4>
     <ol style={{ textAlign: "left", maxWidth: 800, margin: "0 auto" }}>
       <li><strong>Session-based Multi-role Authentication</strong> – Admin, Faculty, TA and Student roles handled via <code>express-session</code>; UI and API access adapt per role.</li>
       <li><strong>Course &amp; Module Management</strong> – Faculty can create courses, build module structures and post assignments.</li>
@@ -72,7 +72,7 @@ const CanvasCloneDetail = ({ project }) => (
       example
     </p> */}
 
-    <h4>Database (Mongoose)</h4>
+    <h4 style={{ marginTop: "2rem", paddingTop: "1rem", borderTop: "1px solid #e2e8f0" }}>Database (Mongoose)</h4>
     <div style={{ display: "flex", flexWrap: "wrap", gap: "1rem", justifyContent: "center", maxWidth: 800, margin: "1rem auto" }}>
       <figure style={{ flex: "1 1 260px", margin: 0 }}>
         <img src={mongoUsersImg} alt="MongoDB Users Collection" style={{ width: "100%", borderRadius: 8 }} />
@@ -85,7 +85,7 @@ const CanvasCloneDetail = ({ project }) => (
     </div>
 
     {/* Roles & Permissions */}
-    <h4>Roles &amp; Permissions</h4>
+    <h4 style={{ marginTop: "2rem", paddingTop: "1rem", borderTop: "1px solid #e2e8f0" }}>Roles &amp; Permissions</h4>
     <p style={{ textAlign: "left", maxWidth: 800, margin: "0 auto" }}>
       <strong>Instructor</strong> – can perform course/assignment CRUD, manage students and enter grades.<br />
       <strong>Student</strong> – can submit assignments and view course materials. Permission checks are enforced
@@ -103,7 +103,7 @@ const CanvasCloneDetail = ({ project }) => (
     </div>
 
     {/* Responsive Design */}
-    <h4>Responsive Design</h4>
+    <h4 style={{ marginTop: "2rem", paddingTop: "1rem", borderTop: "1px solid #e2e8f0" }}>Responsive Design</h4>
     <p style={{ textAlign: "left", maxWidth: 800, margin: "0 auto" }}>
       For mobile users, layouts collapse to a single column, and complex components such as the gradebook turn into
       horizontal scroll or accordion views.
