@@ -14,8 +14,8 @@ const projects = [
   {
     title: "Boston Neighborhood Social Web",
     description: "A social networking web app built with MongoDB, React, Node.js, TypeScript.",
-    link: "",
-    image: ""
+    link: "https://boston-neighborhood.netlify.app",
+    image: "/src/assets/images/BostonNeighborhood/MarketPlace.png"
   },
   {
     title: "Canvas Clone Web App",

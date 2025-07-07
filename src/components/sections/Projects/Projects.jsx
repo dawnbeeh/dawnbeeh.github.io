@@ -6,12 +6,14 @@ import fallbackImg from "../../../assets/images/profile.jpg"
 import DefaultDetail from "./details/DefaultDetail"
 import RestaurantUIDetail from "./details/RestaurantUIDetail"
 import CanvasCloneDetail from "./details/CanvasCloneDetail"
+import BostonNeighborhoodDetail from "./details/BostonNeighborhoodDetail"
 
 const Projects = () => {
   const [selected, setSelected] = useState(null)
 
   const detailMap = {
     "Restaurant UI&UX Design": RestaurantUIDetail,
+    "Boston Neighborhood Social Web": BostonNeighborhoodDetail,
     "Canvas Clone Web App": CanvasCloneDetail,
   }
 
