@@ -10,6 +10,7 @@ import BostonNeighborhoodDetail from "./details/BostonNeighborhoodDetail"
 import BrainCTDetail from "./details/BrainCTDetail"
 import MentalLoadDetail from "./details/MentalLoadDetail"
 import CalendarAppDetail from "./details/CalendarAppDetail"
+import EchoBoardDetail from "./details/EchoBoardDetail"
 
 const Projects = () => {
   const [selected, setSelected] = useState(null)
@@ -21,6 +22,7 @@ const Projects = () => {
     "Boston Neighborhood Social Web": BostonNeighborhoodDetail,
     "Canvas Clone Web App": CanvasCloneDetail,
     "Calendar App (Java, MVC)": CalendarAppDetail,
+    "EchoBoard Ad Overlay": EchoBoardDetail,
   }
 
   return (

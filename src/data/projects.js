@@ -9,6 +9,8 @@ import calAdd from "../assets/images/Calendar/add-event.png"
 import calTests from "../assets/images/Calendar/tests.png"
 import calJar from "../assets/images/Calendar/jar.png"
 import calTui from "../assets/images/Calendar/tui.png"
+import echoBoardImg from "../assets/images/EchoBoard/architecture.png"
+import echoDemoImg from "../assets/images/EchoBoard/demo.png"
 
 const projects = [
   {
@@ -78,7 +80,8 @@ const projects = [
     title: "EchoBoard Ad Overlay",
     description: "AI-powered meeting platform that injects contextual ads using background recognition.",
     link: "",
-    image: ""
+    image: echoDemoImg,
+    images: [echoDemoImg, echoBoardImg]
   },
   {
     title: "2D Dodge Game (Unity)",
