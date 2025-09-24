@@ -7,11 +7,13 @@ import DefaultDetail from "./details/DefaultDetail"
 import RestaurantUIDetail from "./details/RestaurantUIDetail"
 import CanvasCloneDetail from "./details/CanvasCloneDetail"
 import BostonNeighborhoodDetail from "./details/BostonNeighborhoodDetail"
+import BrainCTDetail from "./details/BrainCTDetail"
 
 const Projects = () => {
   const [selected, setSelected] = useState(null)
 
   const detailMap = {
+    "Brain CT Image Hemorrhage Segmentation": BrainCTDetail,
     "Restaurant UI&UX Design": RestaurantUIDetail,
     "Boston Neighborhood Social Web": BostonNeighborhoodDetail,
     "Canvas Clone Web App": CanvasCloneDetail,

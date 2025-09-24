@@ -1,9 +1,16 @@
 // Import images
+import brainCTImg from "../assets/images/BrainCT/brain-ct-segmentation.png"
 import figmaRestaurantImg from "../assets/images/Figma/Figma-restuarant-UI.png"
 import bostonMarketplaceImg from "../assets/images/BostonNeighborhood/MarketPlace.png"
 import canvasDashboardImg from "../assets/images/CanvasClone/DashBoard.png"
 
 const projects = [
+  {
+    title: "Brain CT Image Hemorrhage Segmentation",
+    description: "AI-powered medical image analysis for detecting and segmenting hemorrhages in brain CT scans using deep learning.",
+    link: "",
+    image: brainCTImg
+  },
   {
     title: "Restaurant UI&UX Design",
     description: "Designed a modern restaurant website using Figma",
