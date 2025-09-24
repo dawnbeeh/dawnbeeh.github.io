@@ -57,14 +57,29 @@ const RestaurantUIDetail = ({ project }) => {
       <h3 style={{ marginTop: "1rem" }}>{project.title}</h3>
       <p>{project.description}</p>
       {project.link && (
-        <a
-          href={project.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ display: "inline-block", marginTop: 16, padding: "0.5rem 1rem", background: "#0ea5e9", color: "#fff", borderRadius: 4, textDecoration: "none" }}
-        >
-          Open Figma Prototype
-        </a>
+        <div style={{ marginTop: 16 }}>
+          <p style={{ margin: "0 0 0.5rem 0", fontSize: "0.9rem", color: "#666" }}>View the full Figma prototype:</p>
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ 
+              display: "inline-block", 
+              padding: "0.5rem 1rem", 
+              background: "#f8fafc", 
+              color: "#0ea5e9", 
+              borderRadius: 4, 
+              textDecoration: "none",
+              border: "1px solid #e2e8f0",
+              fontFamily: "monospace",
+              fontSize: "0.8rem",
+              wordBreak: "break-all",
+              maxWidth: "100%"
+            }}
+          >
+            {project.link}
+          </a>
+        </div>
       )}
     </>
   )

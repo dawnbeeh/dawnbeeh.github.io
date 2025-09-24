@@ -44,6 +44,23 @@ const Projects = () => {
             <div className={styles.cardBody}>
               <h3>{proj.title}</h3>
               <p>{proj.description}</p>
+              {proj.link && (
+                <div 
+                  style={{ 
+                    marginTop: "0.5rem", 
+                    fontSize: "0.8rem", 
+                    color: "#0ea5e9",
+                    lineHeight: "1.2",
+                    cursor: "pointer"
+                  }}
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    window.open(proj.link, '_blank', 'noopener,noreferrer')
+                  }}
+                >
+                  🔗 {proj.link.includes('figma.com') ? `${proj.link.substring(0, 40)}...` : proj.link}
+                </div>
+              )}
             </div>
           </div>
         ))}

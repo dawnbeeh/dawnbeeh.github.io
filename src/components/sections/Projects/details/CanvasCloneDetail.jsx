@@ -136,14 +136,27 @@ const CanvasCloneDetail = ({ project }) => (
 
     {/* External Link */}
     {project.link && (
-      <a
-        href={project.link}
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ display: "inline-block", marginTop: 24, padding: "0.5rem 1rem", background: "#0ea5e9", color: "#fff", borderRadius: 4, textDecoration: "none" }}
-      >
-        Live Demo
-      </a>
+      <div style={{ marginTop: 24, textAlign: "center" }}>
+        <p style={{ margin: "0 0 0.5rem 0", fontSize: "0.9rem", color: "#666" }}>Visit the live application:</p>
+        <a
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ 
+            display: "inline-block", 
+            padding: "0.5rem 1rem", 
+            background: "#f8fafc", 
+            color: "#0ea5e9", 
+            borderRadius: 4, 
+            textDecoration: "none",
+            border: "1px solid #e2e8f0",
+            fontFamily: "monospace",
+            fontSize: "0.9rem"
+          }}
+        >
+          {project.link}
+        </a>
+      </div>
     )}
   </>
 )
