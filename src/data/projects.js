@@ -17,12 +17,12 @@ const projects = [
     link: "https://www.figma.com/proto/SjSMznbgZyYBpKo8aaDXHj/Hwang_final?node-id=4007-509&t=Rv98GDHB6CfUdBQG-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=4007%3A509",
     image: figmaRestaurantImg
   },
-  {
-    title: "Student Math League",
-    description: "Placed 2nd in campus competition (AMATYC).",
-    link: "",
-    image: ""
-  },
+  // {
+  //   title: "Student Math League",
+  //   description: "Placed 2nd in campus competition (AMATYC).",
+  //   link: "",
+  //   image: ""
+  // },
   {
     title: "Boston Neighborhood Social Web",
     description: "A social networking web app built with MongoDB, React, Node.js, TypeScript.",
