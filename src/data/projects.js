@@ -4,6 +4,11 @@ import mentalLoadImg from "../assets/images/MentalLoad/mental-load-demo.mp4"
 import figmaRestaurantImg from "../assets/images/Figma/Figma-restuarant-UI.png"
 import bostonMarketplaceImg from "../assets/images/BostonNeighborhood/MarketPlace.png"
 import canvasDashboardImg from "../assets/images/CanvasClone/DashBoard.png"
+import calWeek from "../assets/images/Calendar/week.png"
+import calAdd from "../assets/images/Calendar/add-event.png"
+import calTests from "../assets/images/Calendar/tests.png"
+import calJar from "../assets/images/Calendar/jar.png"
+import calTui from "../assets/images/Calendar/tui.png"
 
 const projects = [
   {
@@ -58,7 +63,16 @@ const projects = [
     title: "Calendar App (Java, MVC)",
     description: "Object-oriented calendar application following MVC.",
     link: "",
-    image: ""
+    image: calAdd,
+    images: [calAdd, calWeek, calTests, calJar, calTui],
+    imageCaptions: [
+      "Event Add Dialog",
+      "Week View",
+      "Results of Over 300 Tests",
+      "Executable JAR File Properties",
+      "Terminal Command Script (TUI)"
+    ],
+    useme: "/downloads/calendar/USEME.md"
   },
   {
     title: "EchoBoard Ad Overlay",

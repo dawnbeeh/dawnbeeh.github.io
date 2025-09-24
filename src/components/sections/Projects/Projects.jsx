@@ -9,6 +9,7 @@ import CanvasCloneDetail from "./details/CanvasCloneDetail"
 import BostonNeighborhoodDetail from "./details/BostonNeighborhoodDetail"
 import BrainCTDetail from "./details/BrainCTDetail"
 import MentalLoadDetail from "./details/MentalLoadDetail"
+import CalendarAppDetail from "./details/CalendarAppDetail"
 
 const Projects = () => {
   const [selected, setSelected] = useState(null)
@@ -19,6 +20,7 @@ const Projects = () => {
     "Restaurant UI&UX Design": RestaurantUIDetail,
     "Boston Neighborhood Social Web": BostonNeighborhoodDetail,
     "Canvas Clone Web App": CanvasCloneDetail,
+    "Calendar App (Java, MVC)": CalendarAppDetail,
   }
 
   return (
