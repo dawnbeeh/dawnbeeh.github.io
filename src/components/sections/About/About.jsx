@@ -4,12 +4,11 @@ const About = () => (
   <section id="about" className={styles.about} data-aos="fade-up">
     <h2>About Me</h2>
     <p>
-    Lately, I've been exploring internship opportunities 
-    and thinking about what areas of software truly excite me.
-    I'm still in the process of figuring things out, 
-    but I've been enjoying the chance to learn and try new things.
-    With summer break giving me a bit more breathing room, 
-    I'm taking this time to move at my own pace - and I'm grateful for it!
+    <span style={{ fontSize: "1.25em" }}>
+      Hi there! I’m Dawnbee, a Computer Science and Math student at Northeastern University. <br />
+      I love creating things through code and enjoy learning new technologies along the way. <br />
+      Outside of class, I’m always curious, collaborative, and excited to take on new challenges.
+    </span>
     </p>
   </section>
 )

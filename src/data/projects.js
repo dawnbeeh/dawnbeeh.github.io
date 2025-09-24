@@ -14,10 +14,16 @@ import echoDemoImg from "../assets/images/EchoBoard/demo.png"
 
 const projects = [
   {
-    title: "Brain CT Image Hemorrhage Segmentation",
-    description: "AI-powered medical image analysis for detecting and segmenting hemorrhages in brain CT scans using deep learning.",
-    link: "",
-    image: brainCTImg
+    title: "Boston Neighborhood Social Web",
+    description: "A social networking web app built with MongoDB, React, Node.js, TypeScript.",
+    link: "https://boston-neighborhood.netlify.app",
+    image: bostonMarketplaceImg
+  },
+  {
+    title: "Canvas Clone Web App",
+    description: "Learning management system clone built with React & TypeScript.",
+    link: "http://dawnbeeh-kambaz.netlify.app",
+    image: canvasDashboardImg
   },
   {
     title: "Mental-Load Webapp",
@@ -31,35 +37,11 @@ const projects = [
     link: "https://www.figma.com/proto/SjSMznbgZyYBpKo8aaDXHj/Hwang_final?node-id=4007-509&t=Rv98GDHB6CfUdBQG-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=4007%3A509",
     image: figmaRestaurantImg
   },
-  // {
-  //   title: "Student Math League",
-  //   description: "Placed 2nd in campus competition (AMATYC).",
-  //   link: "",
-  //   image: ""
-  // },
   {
-    title: "Boston Neighborhood Social Web",
-    description: "A social networking web app built with MongoDB, React, Node.js, TypeScript.",
-    link: "https://boston-neighborhood.netlify.app",
-    image: bostonMarketplaceImg
-  },
-  {
-    title: "Canvas Clone Web App",
-    description: "Learning management system clone built with React & TypeScript.",
-    link: "http://dawnbeeh-kambaz.netlify.app",
-    image: canvasDashboardImg
-  },
-  {
-    title: "Advanced Calculator",
-    description: "Java calculator application with extended functions.",
+    title: "Brain CT Image Hemorrhage Segmentation",
+    description: "AI-powered medical image analysis for detecting and segmenting hemorrhages in brain CT scans using deep learning.",
     link: "",
-    image: ""
-  },
-  {
-    title: "Banking System (Java)",
-    description: "Deposit & withdrawal features implemented in Java.",
-    link: "",
-    image: ""
+    image: brainCTImg
   },
   {
     title: "Calendar App (Java, MVC)",
@@ -83,24 +65,42 @@ const projects = [
     image: echoDemoImg,
     images: [echoDemoImg, echoBoardImg]
   },
-  {
-    title: "2D Dodge Game (Unity)",
-    description: "Endless runner avoiding blocks & collecting items in Unity.",
-    link: "",
-    image: ""
-  },
-  {
-    title: "3D Mini Scene (Unity)",
-    description: "A simple interactive 3D environment made with Unity.",
-    link: "",
-    image: ""
-  },
-  {
-    title: "Tesla Valuation Analysis",
-    description: "Projected 6-month price using 5-year financials & market data.",
-    link: "",
-    image: ""
-  }
+  // {
+  //   title: "Student Math League",
+  //   description: "Placed 2nd in campus competition (AMATYC).",
+  //   link: "",
+  //   image: ""
+  // },
+  // {
+  //   title: "Advanced Calculator",
+  //   description: "Java calculator application with extended functions.",
+  //   link: "",
+  //   image: ""
+  // },
+  // {
+  //   title: "Banking System (Java)",
+  //   description: "Deposit & withdrawal features implemented in Java.",
+  //   link: "",
+  //   image: ""
+  // },
+  // {
+  //   title: "2D Dodge Game (Unity)",
+  //   description: "Endless runner avoiding blocks & collecting items in Unity.",
+  //   link: "",
+  //   image: ""
+  // }
+  // {
+  //   title: "3D Mini Scene (Unity)",
+  //   description: "A simple interactive 3D environment made with Unity.",
+  //   link: "",
+  //   image: ""
+  // },
+  // {
+  //   title: "Tesla Valuation Analysis",
+  //   description: "Projected 6-month price using 5-year financials & market data.",
+  //   link: "",
+  //   image: ""
+  // }
 ]
 
 export default projects 

@@ -5,10 +5,12 @@
   right: 0;
   display: flex;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.9);
+  background: #fff9f3; /* soft peach */
   backdrop-filter: blur(6px);
   padding: 1rem 2rem;
   z-index: 1000;
+  border-bottom: 1px dashed #ffd7ba; /* dashed border */
+  box-shadow: 0 4px 12px rgba(255, 215, 186, 0.25); /* soft shadow */
 }
 
 .navbar ul {
@@ -23,6 +25,13 @@
   color: #213547;
   font-weight: 600;
   text-decoration: none;
+  transition: opacity 0.2s ease, color 0.2s ease;
+  opacity: 0.9;
+}
+
+.navbar a:hover {
+  opacity: 1;
+  color: #ffc195;
 }
 
 /* Mobile responsiveness */
