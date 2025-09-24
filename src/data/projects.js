@@ -1,9 +1,14 @@
+// Import images
+import figmaRestaurantImg from "../assets/images/Figma/Figma-restuarant-UI.png"
+import bostonMarketplaceImg from "../assets/images/BostonNeighborhood/MarketPlace.png"
+import canvasDashboardImg from "../assets/images/CanvasClone/DashBoard.png"
+
 const projects = [
   {
     title: "Restaurant UI&UX Design",
     description: "Designed a modern restaurant website using Figma",
     link: "https://www.figma.com/proto/SjSMznbgZyYBpKo8aaDXHj/Hwang_final?node-id=4007-509&t=Rv98GDHB6CfUdBQG-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=4007%3A509",
-    image: "/src/assets/images/Figma/Figma-restuarant-UI.png"
+    image: figmaRestaurantImg
   },
   {
     title: "Student Math League",
@@ -15,13 +20,13 @@ const projects = [
     title: "Boston Neighborhood Social Web",
     description: "A social networking web app built with MongoDB, React, Node.js, TypeScript.",
     link: "https://boston-neighborhood.netlify.app",
-    image: "/src/assets/images/BostonNeighborhood/MarketPlace.png"
+    image: bostonMarketplaceImg
   },
   {
     title: "Canvas Clone Web App",
     description: "Learning management system clone built with React & TypeScript.",
     link: "http://dawnbeeh-kambaz.netlify.app",
-    image: "/src/assets/images/CanvasClone/DashBoard.png"
+    image: canvasDashboardImg
   },
   {
     title: "Advanced Calculator",
