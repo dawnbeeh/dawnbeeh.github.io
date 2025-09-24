@@ -1,5 +1,6 @@
 // Import images
 import brainCTImg from "../assets/images/BrainCT/brain-ct-segmentation.png"
+import mentalLoadImg from "../assets/images/MentalLoad/mental-load-demo.mp4"
 import figmaRestaurantImg from "../assets/images/Figma/Figma-restuarant-UI.png"
 import bostonMarketplaceImg from "../assets/images/BostonNeighborhood/MarketPlace.png"
 import canvasDashboardImg from "../assets/images/CanvasClone/DashBoard.png"
@@ -10,6 +11,12 @@ const projects = [
     description: "AI-powered medical image analysis for detecting and segmenting hemorrhages in brain CT scans using deep learning.",
     link: "",
     image: brainCTImg
+  },
+  {
+    title: "Mental-Load Webapp",
+    description: "Redesigned client prototype into responsive web and mobile application with automated survey management and reminder system.",
+    link: "",
+    image: mentalLoadImg
   },
   {
     title: "Restaurant UI&UX Design",

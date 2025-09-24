@@ -8,12 +8,14 @@ import RestaurantUIDetail from "./details/RestaurantUIDetail"
 import CanvasCloneDetail from "./details/CanvasCloneDetail"
 import BostonNeighborhoodDetail from "./details/BostonNeighborhoodDetail"
 import BrainCTDetail from "./details/BrainCTDetail"
+import MentalLoadDetail from "./details/MentalLoadDetail"
 
 const Projects = () => {
   const [selected, setSelected] = useState(null)
 
   const detailMap = {
     "Brain CT Image Hemorrhage Segmentation": BrainCTDetail,
+    "Mental-Load Webapp": MentalLoadDetail,
     "Restaurant UI&UX Design": RestaurantUIDetail,
     "Boston Neighborhood Social Web": BostonNeighborhoodDetail,
     "Canvas Clone Web App": CanvasCloneDetail,
@@ -32,15 +34,29 @@ const Projects = () => {
             tabIndex={0}
             onKeyDown={(e) => e.key === 'Enter' && setSelected(proj)}
           >
-            <img
-              src={proj.image || fallbackImg}
-              alt={proj.title}
-              className={styles.thumbnail}
-              onError={(e) => {
-                e.target.onerror = null
-                e.target.src = fallbackImg
-              }}
-            />
+            {proj.image && proj.image.includes('.mp4') ? (
+              <video
+                src={proj.image}
+                className={styles.thumbnail}
+                muted
+                loop
+                playsInline
+                onError={(e) => {
+                  e.target.onerror = null
+                  e.target.src = fallbackImg
+                }}
+              />
+            ) : (
+              <img
+                src={proj.image || fallbackImg}
+                alt={proj.title}
+                className={styles.thumbnail}
+                onError={(e) => {
+                  e.target.onerror = null
+                  e.target.src = fallbackImg
+                }}
+              />
+            )}
             <div className={styles.cardBody}>
               <h3>{proj.title}</h3>
               <p>{proj.description}</p>
