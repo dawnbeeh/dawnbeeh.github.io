@@ -6,13 +6,6 @@
 
 **[View Portfolio](https://dawnbeeh.github.io)**
 
-## Contact
-
-- **Email**: [hwang.daw@northeastern.edu](hwang.daw@northeastern.edu)
-- **LinkedIn**: [linkedin.com/in/dawnbee-hwang/](https://www.linkedin.com/in/dawnbee-hwang/)
-- **GitHub**: [@dawnbeeh](https://github.com/dawnbeeh)
-- **Portfolio**: [dawnbeeh.github.io](https://dawnbeeh.github.io)
-
 ## About
 
 Hi there! I'm Dawnbee, a Computer Science and Math student at Northeastern University. I love creating things through code and enjoy learning new technologies along the way. Outside of class, I'm always curious, collaborative, and excited to take on new challenges.
@@ -56,3 +49,11 @@ This portfolio showcases my journey in software development, featuring projects 
 - **CSS Modules** - Component-scoped styling
 - **AOS** - Smooth scroll animations
 - **GitHub Pages** - Hosting and deployment
+
+
+## Contact
+
+- **Email**: [hwang.daw@northeastern.edu](hwang.daw@northeastern.edu)
+- **LinkedIn**: [linkedin.com/in/dawnbee-hwang/](https://www.linkedin.com/in/dawnbee-hwang/)
+- **GitHub**: [@dawnbeeh](https://github.com/dawnbeeh)
+- **Portfolio**: [dawnbeeh.github.io](https://dawnbeeh.github.io)
